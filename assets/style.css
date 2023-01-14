@@ -1,0 +1,52 @@
+*{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+body{
+    padding: 10px;
+    background-image: url(../assets/image/fundo-branco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(113, 27, 107);
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(113, 27, 107);
+}
+.nav-list{
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.nav-list ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 30px;
+}
+
+.text-inicial{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-inicial p{
+    font-size: 20px;
+    justify-items: center;
+    margin-top: 20px;
+}
