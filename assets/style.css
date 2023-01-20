@@ -30,23 +30,21 @@ a{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-section{
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    justify-items: center;
-    padding-top: 30px;
+.logo-inicial{
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
 }
 
 .text-inicial{
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
 .text-inicial p{
     font-size: 20px;
-    justify-items: center;
+    justify-content: center;
     margin-top: 20px;
+    padding-left: 40px;
 }
